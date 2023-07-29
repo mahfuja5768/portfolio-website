@@ -1,0 +1,135 @@
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+      }
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 50%;
+    background: linear-gradient(#c51afeec , #7d51d4de);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.9s;
+    margin-top: 10px;
+  }
+  nav ul li {
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 17px;
+    color: #fff;
+  }
+  .fa-bars{
+    color: #000000;
+    font-size: 20px;
+  }
+  a.active,
+  a:hover {
+    background: none;
+   color: #000c14;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  /* banner */
+.banner{
+  margin-top: 20px;
+ flex-direction: column;
+ text-align: center;
+}
+.banner div{
+width: 100%;
+}
+.detail h1{
+  font-size: 40px;
+}
+.detail p{
+  line-height: 22px;
+  margin: 12px 0 25px;
+}
+.images{
+  margin-top: 30px;
+}
+
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+.checkbtn {
+display: block;
+}
+ul {
+position: fixed;
+width: 100%;
+background: linear-gradient(#c51afeec , #7d51d4de);
+top: 80px;
+left: -100%;
+text-align: center;
+transition: all 0.9s;
+margin-top: 10px;
+}
+nav ul li {
+display: block;
+margin: 30px 0;
+line-height: 30px;
+}
+
+nav ul li a {
+font-size: 20px;
+color: #fff;
+}
+.fa-bars{
+color: #000000;
+font-size: 20px;
+}
+a.active,
+a:hover {
+background: none;
+color: #000c14;
+}
+#check:checked ~ ul{
+left: 0;
+}
+
+/* banner */
+.banner {
+  margin-top: 0;
+  padding: 40px 0;
+  flex-direction: column;
+  text-align: center;
+}
+.banner div {
+  width: 100%;
+}
+.detail{
+  text-align: center;
+}
+.detail h1 {
+  font-size: 40px;
+}
+.detail p {
+  line-height: 26px;
+  margin: 12px 0 25px;
+}
+.images{
+  margin-top: 70px;
+}
+.images img {
+  width: 70%;
+}
+.girl {
+  position: absolute;
+  left: 15%;
+  top: 30px;
+  width: 80%;
+}
+}
