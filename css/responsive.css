@@ -7,8 +7,8 @@
   }
   ul {
     position: fixed;
-    width: 50%;
-    background: linear-gradient(#c51afeec , #7d51d4de);
+    width: 100%;
+    background: linear-gradient(#04a2e5, #244f9e);
     top: 80px;
     left: -100%;
     text-align: center;
@@ -29,8 +29,8 @@
     color: #000000;
     font-size: 20px;
   }
-  a.active,
-  a:hover {
+  nav ul li >a.active,
+  nav ul li >a:hover {
     background: none;
    color: #000c14;
   }
@@ -53,6 +53,16 @@ width: 100%;
   line-height: 22px;
   margin: 12px 0 25px;
 }
+.btn , .btn-2{
+  font-size: 16px;
+  padding: 13px 14px;
+}
+.social-links i{
+  font-size: 20px;
+}
+.fa-linkedin-in, .fa-github{
+  padding: 12px;
+}
 .images{
   margin-top: 30px;
 }
@@ -70,7 +80,7 @@ display: block;
 ul {
 position: fixed;
 width: 100%;
-background: linear-gradient(#c51afeec , #7d51d4de);
+background: linear-gradient(#04a2e5, #244f9e);
 top: 80px;
 left: -100%;
 text-align: center;
@@ -79,7 +89,7 @@ margin-top: 10px;
 }
 nav ul li {
 display: block;
-margin: 30px 0;
+margin: 40px 0;
 line-height: 30px;
 }
 

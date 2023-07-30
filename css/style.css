@@ -54,12 +54,12 @@ nav ul li a {
   color: #000;
   font-size: 17px;
   font-weight: 700;
-  padding: 7px 13px;
+  padding: 12px 20px;
   border-radius: 10px;
 }
-a.active,
-a:hover {
-  background: linear-gradient(#c41afe, #7d51d4);
+nav ul li > a.active,
+nav ul li > a:hover {
+  background: linear-gradient(#04a2e5, #244f9e);
   transition: 0.5s;
   color: #fff;
 }
@@ -76,13 +76,17 @@ a:hover {
 }
 /* banner */
 .banner {
-  margin-top: 40px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .banner div {
   width: 50%;
+}
+.text-sm {
+  font-size: 20px;
+  font-weight: bold;
 }
 .detail h1 {
   font-size: 50px;
@@ -94,27 +98,66 @@ a:hover {
 .detail a {
   text-decoration: none;
 }
-.btn {
+.btns a {
   color: #fff;
-  background: linear-gradient(#c41afe, #7d51d4);
+}
+.btn , .btn-2{
+  background: linear-gradient(#04a2e5, #6585c0);
   font-size: 17px;
-  font-weight: bold;
-  padding: 10px 18px;
+  font-weight: 600;
+  padding: 20px 14px;
   border-radius: 5px;
-  margin: 30px 0;
-  border: none;
+  margin-top: 10px;
+  border: 1px transparent;
   transition: all 0.6s ease-in-out;
 }
-.btn:hover {
-  transform: translateY(5px);
-  background: transparent;
-  color: #c41afe;
-  border: 1px solid #c41afe;
-}
-.gradient-text {
-  background: linear-gradient(#e191fc, #6d2af5);
+.btn:hover a, .btn-2 a{
+  background: linear-gradient(#04a2e5, #244f9e);
   color: transparent;
   -webkit-background-clip: text;
+}
+.btn:hover{
+  transform: translateY(5px);
+  background: transparent;
+  border: 1px solid #04a2e5;
+  cursor: pointer;
+}
+.btns , .social-links{
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+}
+.btn-2{
+  border: 1px solid #04a2e5;
+  background: linear-gradient(#04a2e5, #244f9e);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.btn-2:hover, .social-links i:hover{
+  transform: translateY(5px);
+  cursor: pointer;
+}
+.gradient-text {
+  background: linear-gradient(#04a2e5, #244f9e);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.social-links{
+  margin-top: 20px;
+}
+.social-links i{
+  font-size: 30px;
+  margin-right: 10px;
+  transition: all 0.6s ease-in-out;
+}
+.fa-linkedin-in, .fa-github{
+  background: linear-gradient(#04a2e5, #244f9e);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 50%;
 }
 .images {
   position: relative;
