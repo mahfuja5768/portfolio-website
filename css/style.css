@@ -194,14 +194,14 @@ nav ul li > a:hover {
 
 /* about me */
 .section-gap{
-  margin: 50px 0;
+  margin: 80px 0;
 }
 .about-me-section{
-  padding-top: 40px;
   padding: 0 20px;
 }
 .title{
   text-align: center;
+  margin-bottom: 40px;
 }
 .title p{
   font-size: 17px;
@@ -209,7 +209,14 @@ nav ul li > a:hover {
 }
 .title h2{
   font-size: 45px;
-  margin: 10px 0;
+  margin: 5px 0;
+}
+.about-img img{
+  background: linear-gradient(#04a1e567, #244f9ec4);
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 20px;
+  margin-right: 50px;
 }
 .about-me-contents{
   display: flex;
@@ -218,7 +225,7 @@ nav ul li > a:hover {
 }
 .about-cards{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-top: 50px;
   margin-bottom: 40px;
@@ -228,7 +235,8 @@ nav ul li > a:hover {
   border: 1px solid #04a2e5;
   padding: 30px 50px;
   text-align: center;
-  border-radius: 30px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 .about-card i{
   background: linear-gradient(#04a2e5, #244f9e);
@@ -242,4 +250,31 @@ nav ul li > a:hover {
   justify-content: center;
   align-items: center;
   margin: 10px auto;
+}
+
+/* experience-section */
+
+
+
+.fa-check{
+  background: linear-gradient(#04a2e5, #244f9e);
+  font-size: 16px;
+  color: #fff;
+  padding: 15px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.items{
+  display: flex;
+  flex-direction: column;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
