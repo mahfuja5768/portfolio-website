@@ -19,7 +19,7 @@ a {
 }
 /* header */
 /* nav */
-header {
+header , .hire-me-section{
   background-image: url(./../banner-bg/bn6.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -265,7 +265,6 @@ nav ul li > a:hover {
 
 /* experience-section */
 
-
 .items-content{
   display: flex;
   justify-content: space-between;
@@ -322,3 +321,60 @@ nav ul li > a:hover {
   align-items: center;
 }
 
+/* projects-section */
+
+.projects{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.project-card img{
+  width: 100%;
+  border-radius: 20px;
+}
+.project-card {
+  padding: 20px 20px;
+  border-radius: 20px;
+  text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.project-content{
+  padding: 20px;
+}
+.p-btn{
+  margin: 10px 0;
+}
+
+/* hire-me-section */
+.hire-me-section{
+  margin-top: 80px;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hire-me-section h2{
+  font-size: 30px;
+}
+.hire-me-section button{
+  margin: 20px 0;
+}
+.hire-me-section button a{
+  color: #fff;
+}
+
+/* contact-me-section */
+.contact-section{
+  margin-top: 80px;
+  padding: 20px 0;
+}
+.footer-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer-nav li a{
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+}
