@@ -366,6 +366,10 @@ nav ul li > a:hover {
   margin-top: 80px;
   padding: 20px 0;
 }
+.contact-section p{
+  text-align: center;
+  margin: 20px 0;
+}
 .footer-nav{
   display: flex;
   justify-content: center;
