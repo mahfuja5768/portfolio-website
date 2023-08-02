@@ -163,7 +163,7 @@ width: 100%;
 .projects-section{
   padding: 0 20px;
 }
-.projects{
+.projects-cards{
   grid-template-columns: repeat(1, 1fr);
   gap: 40px;
 }
@@ -334,7 +334,7 @@ left: 0;
   padding: 0 20px;
   padding-top: 20px;
 }
-.projects{
+.projects-cards{
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
 }

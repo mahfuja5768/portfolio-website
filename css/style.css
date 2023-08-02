@@ -19,7 +19,8 @@ a {
 }
 /* header */
 /* nav */
-header , .hire-me-section{
+header,
+.hire-me-section {
   background-image: url(./../banner-bg/bn6.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -102,12 +103,14 @@ nav ul li > a:hover {
   color: #fff;
   display: inline-block;
 }
-.btns , .social-links{
+.btns,
+.social-links {
   display: flex;
   justify-content: space-between;
   gap: 5px;
 }
-.btn , .btn-2{
+.btn,
+.btn-2 {
   background: linear-gradient(#04a2e5, #6585c0);
   font-size: 16px;
   font-weight: 600;
@@ -117,25 +120,28 @@ nav ul li > a:hover {
   border: 1px transparent;
   transition: all 0.6s ease-in-out;
 }
-.btn:hover a, .btn-2 a{
+.btn:hover a,
+.btn-2 a {
   background: linear-gradient(#04a2e5, #244f9e);
   color: transparent;
   -webkit-background-clip: text;
 }
-.btn:hover{
+
+.btn:hover {
   transform: translateY(5px);
   background: transparent;
   border: 1px solid #04a2e5;
   cursor: pointer;
 }
 
-.btn-2{
+.btn-2 {
   border: 1px solid #04a2e5;
   background: linear-gradient(#04a2e5, #244f9e);
   color: transparent;
   -webkit-background-clip: text;
 }
-.btn-2:hover, .social-links i:hover{
+.btn-2:hover,
+.social-links i:hover {
   transform: translateY(5px);
   cursor: pointer;
 }
@@ -144,15 +150,17 @@ nav ul li > a:hover {
   color: transparent;
   -webkit-background-clip: text;
 }
-.social-links{
+.social-links {
   margin-top: 20px;
 }
-.social-links i , .about-card i{
+.social-links i,
+.about-card i {
   font-size: 25px;
   margin-right: 10px;
   transition: all 0.6s ease-in-out;
 }
-.fa-linkedin-in, .fa-github{
+.fa-linkedin-in,
+.fa-github {
   background: linear-gradient(#04a2e5, #244f9e);
   color: #fff;
   display: flex;
@@ -193,37 +201,36 @@ nav ul li > a:hover {
 }
 
 /* about me */
-.section-gap{
-  margin: 80px 0;
+.section-gap {
+  margin-top: 100px;
 }
-.about-me-section{
+.about-me-section {
   padding: 0 20px;
 }
-.title{
+.title {
   text-align: center;
   margin-bottom: 40px;
 }
-.title p{
+.title p {
   font-size: 17px;
-  
 }
-.title h2{
+.title h2 {
   font-size: 45px;
   margin: 5px 0;
 }
-.about-img img{
+.about-img img {
   background: linear-gradient(#04a1e567, #244f9ec4);
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   padding: 20px;
   margin-right: 50px;
 }
-.about-me-contents{
+.about-me-contents {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.about-cards{
+.about-cards {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -231,25 +238,22 @@ nav ul li > a:hover {
   margin-bottom: 40px;
   gap: 10px;
 }
-.about-card{
-  
+.about-card {
   border: 2px solid #04a1e5da;
   padding: 30px 50px;
   text-align: center;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
-  box-shadow:
-  inset 0 -3em 3em rgba(92, 121, 141, 0.1),
-  0 0 0 2px rgb(255, 255, 255),
-  0.3em 0.3em 1em #04a1e5b2;
-  transition: all 0.4s ease-in-out;
+  box-shadow: inset 0 -3em 3em rgba(92, 121, 141, 0.1),
+    0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em #04a1e5b2;
+  animation: rasing 5s ease-in-out infinite;
+  animation-delay: 2s;
 }
-.about-card:hover{
+.about-card:hover {
   background: linear-gradient(#04a1e53f, #244f9eb4);
-  transform: translateY(5px);
   color: #fff;
 }
-.about-card i{
+.about-card i {
   background: linear-gradient(#04a2e5, #244f9e);
   font-size: 25px;
   color: #fff;
@@ -265,12 +269,12 @@ nav ul li > a:hover {
 
 /* experience-section */
 
-.items-content{
+.items-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.fa-check{
+.fa-check {
   background: linear-gradient(#04a2e5, #244f9e);
   font-size: 14px;
   color: #fff;
@@ -284,25 +288,23 @@ nav ul li > a:hover {
   margin-right: 15px;
   margin-bottom: 20px;
 }
-.box{
+.box {
   border: 2px solid #04a1e5da;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 10px;
   background: linear-gradient(#04a1e53f, #244f9eb4);
   padding: 50px 60px;
-  box-shadow:
-  inset 0 -3em 3em rgba(92, 121, 141, 0.1),
-  0 0 0 2px rgb(255, 255, 255),
-  0.3em 0.3em 1em #04a1e5b2;
+  box-shadow: inset 0 -3em 3em rgba(92, 121, 141, 0.1),
+    0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em #04a1e5b2;
   transition: all 0.4s ease-in-out;
 }
-.box:hover{
+.box:hover {
   background: linear-gradient(#04a1e567, #244f9ec4);
   transform: translateY(5px);
   color: #fff;
 }
-.sub-title{
+.sub-title {
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: 600;
@@ -310,12 +312,12 @@ nav ul li > a:hover {
   padding-bottom: 10px;
   border-bottom: 1px solid #06648b;
 }
-.items{
+.items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-.item{
+.item {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -323,12 +325,13 @@ nav ul li > a:hover {
 
 /* projects-section */
 
-.projects{
+.projects-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 40px;
+  margin-bottom: 20px;
 }
-.project-card img{
+.project-card img {
   width: 100%;
   border-radius: 20px;
 }
@@ -336,47 +339,59 @@ nav ul li > a:hover {
   padding: 20px 20px;
   border-radius: 20px;
   text-align: center;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: all 0.7s ease-in-out;
 }
-.project-content{
+.project-card:hover {
+  transform: translateY(-20px);
+  box-shadow: inset 0 -3em 3em rgba(92, 121, 141, 0.1),
+  0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em #04a1e5b2;
+transition: all 0.4s ease-in-out;
+}
+.project-content {
   padding: 20px;
 }
-.p-btn{
+.p-btn {
   margin: 10px 0;
 }
 
 /* hire-me-section */
-.hire-me-section{
+.hire-me-section {
   margin-top: 80px;
   text-align: center;
   padding: 80px 20px;
 }
-.hire-me-section h2{
+.hire-me-section h2 {
   font-size: 30px;
-}
-.hire-me-section button{
   margin: 20px 0;
 }
-.hire-me-section button a{
+.hire-me-section button {
+  margin: 20px 0;
+}
+.hire-me-btn {
+  background: linear-gradient(#04a1e51f, #244f9e15);
   color: #fff;
 }
 
 /* contact-me-section */
-.contact-section{
-  margin-top: 80px;
+.contact-section {
+  margin-top: 50px;
   padding: 20px 0;
 }
-.contact-section p{
+.contact-text {
+  margin-bottom: 15px;
+}
+.contact-section p {
   text-align: center;
   margin: 20px 0;
 }
-.footer-nav{
+.footer-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-.footer-nav li a{
+.footer-nav li a {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
