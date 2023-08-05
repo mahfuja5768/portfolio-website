@@ -25,59 +25,33 @@ header,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px 20px;
+  position: relative;
 }
-
-nav {
-  height: 80px;
+.navbar{
+  position: fixed;
+  background: linear-gradient(#04a2e5, #5d95fd);
   width: 100%;
+  padding: 20px ;
 }
-label.logo {
+nav, .nav-menu{
+  display: flex;
   color: #fff;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 80px;
-}
-.logo img {
-  width: 100px;
-}
-nav ul {
-  float: right;
+  justify-content: space-between;
 
-  margin-right: 20px;
+  align-items: center;
 }
-nav ul li {
-  display: inline-block;
-  margin: 0 5px;
-  line-height: 80px;
-}
-nav ul li a {
-  color: #000;
-  font-size: 17px;
-  font-weight: 700;
-  padding: 12px 20px;
-  border-radius: 10px;
-}
-nav ul li > a.active,
-nav ul li > a:hover {
-  background: linear-gradient(#04a2e5, #244f9e);
-  transition: 0.5s;
+.nav-list{
+  display: flex;
   color: #fff;
+  justify-content: center;
+
+  align-items: center;
 }
-.checkbtn {
-  font-size: 30px;
-  color: #fff;
-  cursor: pointer;
-  display: none;
-  float: right;
-  line-height: 80px;
-}
-#check {
-  display: none;
-}
+
 /* banner */
 .banner {
-  margin-top: 50px;
+  padding-top: 40px;
+  padding: 80px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -238,7 +212,8 @@ nav ul li > a:hover {
   margin-bottom: 40px;
   gap: 40px;
 }
-.about-card , .about-card-2{
+.about-card,
+.about-card-2 {
   border: 2px solid #04a1e5da;
   padding: 30px 50px;
   text-align: center;
@@ -246,8 +221,10 @@ nav ul li > a:hover {
   border-bottom-left-radius: 50px;
   box-shadow: inset 0 3em 3em rgba(92, 121, 141, 0.1),
     0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em #04a1e5b2;
+  animation: rasing 5s ease-in-out infinite;
+  animation-delay: 2s;
 }
-.about-card-2{
+.about-card-2 {
   border-top-right-radius: 0;
   border-bottom-left-radius: 0;
   border-top-left-radius: 50px;
@@ -257,11 +234,13 @@ nav ul li > a:hover {
   animation: rasing 5s ease-in-out infinite;
   animation-delay: 2s;
 }
-.about-card:hover , .about-card-2:hover{
+.about-card:hover,
+.about-card-2:hover {
   background: linear-gradient(#04a1e53f, #244f9eb4);
   color: #fff;
 }
-.about-card i , .about-card-2 i {
+.about-card i,
+.about-card-2 i {
   background: linear-gradient(#04a2e5, #244f9e);
   font-size: 25px;
   color: #fff;
@@ -353,8 +332,8 @@ nav ul li > a:hover {
 .project-card:hover {
   transform: translateY(-20px);
   box-shadow: inset 0 -3em 3em rgba(92, 121, 141, 0.1),
-  0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em #04a1e5b2;
-transition: all 0.4s ease-in-out;
+    0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em #04a1e5b2;
+  transition: all 0.4s ease-in-out;
 }
 .project-content {
   padding: 20px;
@@ -367,7 +346,7 @@ transition: all 0.4s ease-in-out;
 .hire-me-section {
   margin-top: 80px;
   text-align: center;
-  padding: 80px 20px;
+  padding: 150px 20px;
 }
 .hire-me-section h2 {
   font-size: 30px;
@@ -380,6 +359,7 @@ transition: all 0.4s ease-in-out;
   background: linear-gradient(#04a1e51f, #244f9e15);
   color: #fff;
 }
+
 
 /* contact-me-section */
 .contact-section {
@@ -404,4 +384,32 @@ transition: all 0.4s ease-in-out;
   font-weight: bold;
   cursor: pointer;
   color: #000;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background: linear-gradient(#04a2e5, #244f9e);
+  padding: 80px 0;
+  border-radius: 10px;
+}
+input,
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(#ffffff, #ffffff75);
+  outline-style:none
+}
+.contact-btn a{
+  color: #fff;
+}
+.contact-btn i{
+  font-size: 15px;
+  margin-left: 10px;
+}
+.copyright-text{
+  font-size: 14px;
 }

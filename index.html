@@ -27,9 +27,40 @@
     <!-- header -->
     <header>
       <!-- nav -->
-      <div class="navbar">
-        <div class="container">
-          <nav>
+        <div class="navbar">
+            <nav class="nav container">
+              <a href="/" class="nav-logo">
+                <img src="" alt="">
+                Muna
+              </a>
+              <div class="nav-menu" id="nav_menu">
+                 <ul class="nav-list">
+                   <li class="nav-item">
+                      <a href="#" class="nav-link">Home</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="#about" class="nav-link">About</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="#experience" class="nav-link">Experience</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="#projects" class="nav-link">Projects</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="#hire-me" class="nav-link">Hire Me</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="#contact" class="nav-link">Contact</a>
+                   </li>
+                 </ul>
+                 <div class="nav-close" id="nav_close">
+                  <i class="fa-solid fa-xmark"></i>
+                 </div>
+            </div>
+            </nav>
+          </div>
+          <!-- <nav>
             <input type="checkbox" id="check" />
             <label for="check" class="checkbtn">
               <i class="fa-solid fa-bars"></i>
@@ -45,7 +76,7 @@
               <li><a href="#hire-me">Hire Me</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </nav>
+          </nav> -->
         </div>
       </div>
       <!-- banner -->
@@ -258,7 +289,7 @@
       <section class="hire-me-section section-gap" id="hire-me">
         <div class="container">
           <h2 class="gradient-text">Let Me Get You A Beautiful Website</h2>
-          <p>
+          <p class="hire-para">
             If you're looking for a web developer who is passionate about
             creating beautiful, functional websites, then I'm the perfect fit
             for you. I'm always eager to learn new technologies and techniques,
@@ -281,10 +312,21 @@
           <h2 class="gradient-text">Contact Me</h2>
         </div>
         <div class="inputs">
-          
+          <div>
+          <input type="text" name="" id="" placeholder="Your Name">
+          </div>
+          <div>
+          <input type="text" name="" id="" placeholder="Your Email">
+          </div>
+          <div>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage"></textarea>
+          </div>
+          <button href="#" class="btn-2 hire-me-btn contact-btn">
+            <a href="#">Send <i class="fa-solid fa-paper-plane"></i></a>
+          </button>
         </div>
 
-        <p>Copyright &copy 2023 , All Right Reserved</p>
+        <p class="copyright-text">Copyright &copy 2023 , All Right Reserved</p>
       </div>
     </section>
   </body>
