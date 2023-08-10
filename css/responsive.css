@@ -322,7 +322,10 @@
   margin-top: 80px;
   padding: 0px 20px 0x;
 }
-
+.hire-me-section p{
+  width: 90%;
+  margin: 0 auto;
+}
 
 /* contact-me-section */
 .contact-section {
