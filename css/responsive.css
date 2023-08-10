@@ -181,19 +181,45 @@
   .container {
     width: 90%;
   }
+   /* header nav */
+   .nav-menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    padding: 24px 0 16px;
+    background: #fff;
+    transition: .7s;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  .nav-list {
+    flex-direction: column;
+  }
+  .nav-item{
+    margin: 0px 0 16px;
+  }
+  .nav-toggle {
+    font-size: 18px;
+    cursor: pointer;
+    color: #000;
+    display: block;
+  }
+  .show-menu {
+    top: 50px;
+  }
+  .fa-moon{
+    margin-left: 0px;
+  }
 
   /* banner */
   .banner {
-    margin-top: 0;
-    padding: 40px 0;
-    flex-direction: column;
-    text-align: center;
+   gap: 20px;
   }
   .banner div {
-    width: 100%;
-  }
-  .detail {
-    text-align: center;
+    width: 50%;
   }
   .detail h1 {
     font-size: 40px;
@@ -202,22 +228,15 @@
     line-height: 26px;
     margin: 12px 0 25px;
   }
-  .btns,
-  .social-links {
-    justify-content: center;
-    gap: 15px;
-  }
-  .images {
-    margin-top: 70px;
-  }
+
   .images img {
-    width: 70%;
+    width: 90%;
   }
   .girl {
     position: absolute;
-    left: 15%;
+    left: 5%;
     top: 30px;
-    width: 80%;
+    width: 100%;
   }
   /* about me */
   .section-gap {
@@ -309,4 +328,16 @@
   .project-card h2 {
     font-size: 20px;
   }
+  /* hire-me-section */
+.hire-me-section {
+  margin-top: 80px;
+  padding: 0px 20px 0x;
+}
+
+
+/* contact-me-section */
+.contact-section {
+  margin-top: 0px;
+  padding: 20px 0;
+}
 }

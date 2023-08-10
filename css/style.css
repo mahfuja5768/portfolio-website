@@ -283,8 +283,9 @@ nav, .nav-menu{
 
 .items-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  gap: 10px;
 }
 .fa-check {
   background: linear-gradient(#04a2e5, #244f9e);
@@ -302,18 +303,29 @@ nav, .nav-menu{
 }
 .box {
   border: 2px solid #04a1e5da;
-  border-top-left-radius: 50px;
+  /* border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 10px;
-  background: linear-gradient(#04a1e53f, #244f9eb4);
+  border-bottom-left-radius: 10px; */
   padding: 50px 60px;
   box-shadow: inset 0 -3em 3em rgba(92, 121, 141, 0.1),
     0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em #04a1e5b2;
-  transition: all 0.4s ease-in-out;
+    animation: rasing 4s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.frontend{
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.backend{
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: inset 0 3em 3em rgba(92, 121, 141, 0.1),
+    0 0 0 2px rgb(255, 255, 255), -0.3em 0.3em 1em #04a1e5b2;
 }
 .box:hover {
-  background: linear-gradient(#04a1e567, #244f9ec4);
-  transform: translateY(5px);
+  background: linear-gradient(#04a1e53f, #244f9eb4);
   color: #fff;
 }
 .sub-title {
@@ -371,7 +383,7 @@ nav, .nav-menu{
 .hire-me-section {
   margin-top: 80px;
   text-align: center;
-  padding: 50px 20px;
+  padding: 50px 20px 10x;
 }
 .hire-me-section h2 {
   font-size: 30px;
@@ -390,9 +402,6 @@ nav, .nav-menu{
 .contact-section {
   margin-top: 0px;
   padding: 20px 0;
-}
-.contact-text {
-  margin-bottom: 15px;
 }
 .contact-section p {
   text-align: center;
