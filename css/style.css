@@ -461,7 +461,8 @@ nav, .nav-menu{
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  background: linear-gradient(#04a2e5, #244f9e);
+ 
+  background: #e4e8ec;
   padding: 80px 0;
   border-radius: 10px;
 }
@@ -470,17 +471,17 @@ textarea {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background: linear-gradient(#ffffff, #ffffff75);
-  outline-style:none
+  outline-style:none;
+  color: #fff;
 }
 .contact-btn a{
-  color: #fff;
 }
 .contact-btn i{
   font-size: 15px;
   margin: 0 5px 0;
   animation: moving 4s ease-in-out infinite;
   animation-delay: 2s;
+  color: #0b8dc5;
 }
 .copyright-text{
   font-size: 14px;
